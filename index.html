@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currency Converter - Live Exchange Rates</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f4b2.png">
 </head>
 <body>
     <div class="container">
         <p style="font-size: 30px; font-family: Arial, Helvetica, sans-serif;"><b>Currency Converter</b></p>
+        <label for="fromCurrency">From Currency: </label>
         <select id="fromCurrency"></select>
+        <label for="toCurrency">To Currency: </label>
         <select id="toCurrency"></select>
         <input type="number" id="amount" placeholder="Amount" />
         <button id="submitBtn">Convert</button>
@@ -18,8 +20,8 @@
         <p id="result"></p>
         <p id="conversion"></p>
     </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
-
-
