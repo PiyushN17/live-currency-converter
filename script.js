@@ -1,6 +1,6 @@
 const API_KEY = `f1408440c8-eb9bc9f1bd-t9iu1a`;
 const currencyURL = `https://api.fastforex.io/currencies?api_key=${API_KEY}`;
-alert("I'm using free forex.io API which may get expired after sometime leading to errors in this project. If this project is not working, please contact me - piyush.nath1710@gmail.com");
+alert("I'm using free forex.io API which may get expired after sometime leading to errors in this project. If this project is not working, please contact me here - piyush.nath1710@gmail.com");
 const fromSelect = document.getElementById("fromCurrency");
 const toSelect = document.getElementById("toCurrency");
 const btn = document.getElementById('submitBtn');
