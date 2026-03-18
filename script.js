@@ -12,7 +12,7 @@ const conversion = document.getElementById('conversion');
 async function loadCurrencies() {
   const response = await fetch(currencyURL);
   const data = await response.json();
-
+  console.log(data);
   for (const [code, name] of Object.entries(data.currencies)) {
     const option1 = new Option(`${code} - ${name}`, code);
     const option2 = new Option(`${code} - ${name}`, code);
